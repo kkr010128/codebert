@@ -1,0 +1,1 @@
+print '1' if int(raw_input().split(' ')[1]) > int(raw_input().split(' ')[1]) else '0'

@@ -1,0 +1,6 @@
+x,y,a,b,c=map(int,input().split())
+R=sorted(map(int,input().split()),reverse=True)
+G=sorted(map(int,input().split()),reverse=True)
+N=sorted(map(int,input().split()),reverse=True)
+L=sorted(R[:x]+G[:y]+N[:(x+y)],reverse=True)
+print(sum(L[:(x+y)]))

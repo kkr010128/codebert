@@ -1,0 +1,13 @@
+while True:
+    (a, op, b) = [int(i) if i.isdigit() else i for i in input().split()]
+
+    if op == '?':
+        break
+    elif op == '+':
+        print(a + b)
+    elif op == '-':
+        print(a - b)
+    elif op == '*':
+        print(a * b)
+    elif op == '/':
+        print(a // b)

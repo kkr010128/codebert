@@ -1,0 +1,1 @@
+print(sum(i**4%15%2*i for i in range(int(input())+1)))

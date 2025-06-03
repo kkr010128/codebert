@@ -1,0 +1,15 @@
+import bisect,collections,copy,heapq,itertools,math,string
+import sys
+def S(): return sys.stdin.readline().rstrip()
+def M(): return map(int,sys.stdin.readline().rstrip().split())
+def I(): return int(sys.stdin.readline().rstrip())
+def LI(): return list(map(int,sys.stdin.readline().rstrip().split()))
+def LS(): return list(sys.stdin.readline().rstrip().split())
+a, b, c, d = M()
+li = list()
+li.append(a*c)
+li.append(a*d)
+li.append(b*c)
+li.append(b*d)
+li.sort()
+print(li[-1])

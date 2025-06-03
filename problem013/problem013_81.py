@@ -1,0 +1,23 @@
+#cording by utf-8
+
+n = int(input())
+#maxv ?????§???
+#minv ????°????
+minv = int(input()) #?????????????°????
+#print("minv",minv)
+maxp = int(input()) #??????????????§???
+maxp = maxp - minv
+if maxp + minv < minv:
+    minv = maxp + minv
+for i in range(2,n):
+    stock = int(input())
+    if minv > stock:
+        minv = stock
+        #print("minv",minv)
+    else:
+        profit = stock - minv
+        if profit > maxp:
+            maxp = profit
+            #print("maxp",maxp)
+
+print(maxp)

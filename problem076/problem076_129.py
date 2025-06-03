@@ -1,0 +1,9 @@
+import math
+from decimal import *
+import random
+
+n = int(input())
+if(n==1):
+    print(0)
+else:
+    print(1)

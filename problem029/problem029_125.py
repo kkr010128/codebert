@@ -1,0 +1,7 @@
+
+x1,y1,x2,y2=map(float,input().split())
+import math
+A=math.sqrt((x2-x1)**2+(y2-y1)**2)
+
+B=float('{:.8f}'.format(A))
+print(B)

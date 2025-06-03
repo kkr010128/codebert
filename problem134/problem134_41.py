@@ -1,0 +1,16 @@
+N = int(input())
+A = list(map(int, input().split()))
+
+if 0 in A:
+    print(0)
+    exit()
+
+prod = 1
+
+for a in A:
+    prod *= a
+    if prod > 1e18:
+        print(-1)
+        exit()
+
+print(prod)

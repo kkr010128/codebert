@@ -1,0 +1,9 @@
+a, b, c = [int(x) for x in input().split()]
+k = int(input())
+while b <= a:
+    b *= 2
+    k -= 1
+while c <= b:
+    c *= 2
+    k -= 1
+print("Yes" if k >= 0 else "No")

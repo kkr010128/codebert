@@ -1,0 +1,10 @@
+x,k,d = list(map(int, input().split()))
+x = abs(x)
+a,b = divmod(x, d)
+a = min(a, k)
+x -= a * d
+#print('a=',a)
+#print('x=',x)
+#print('ka=',k-a)
+x -= d * ((k-a) % 2)
+print(abs(x))

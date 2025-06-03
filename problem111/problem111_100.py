@@ -1,0 +1,5 @@
+n = int(input())
+A = list(map(int,input().split()))
+A.sort(reverse=True)
+B = sorted(A+A[1:],reverse=True)
+print(sum(B[:n-1]))

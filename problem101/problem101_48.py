@@ -1,0 +1,10 @@
+r, g, b = [int(x) for x in input().split()]
+ops = int(input())
+m = 0
+while g <= r:
+        g *= 2
+        m += 1
+while b <= g:
+        b *= 2
+        m += 1
+print("Yes" if m <= ops  else "No")

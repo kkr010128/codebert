@@ -1,0 +1,7 @@
+n = int(input())
+cl = str(input())
+cl_R = cl.count("R")
+# print(cl_R)
+cl_leftR = cl[:cl_R].count("R")
+# print(cl_leftR)
+print(cl_R-cl_leftR)

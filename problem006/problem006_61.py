@@ -1,0 +1,1 @@
+N=1000;print(lambda f,n:f(f,n))(lambda f,n:n==0 and 100*N or(lambda x:x%N>0 and x-x%N+N or x)(f(f,n-1)*105/100),input())

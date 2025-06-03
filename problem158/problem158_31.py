@@ -1,0 +1,13 @@
+def main():
+  k = int(input())
+  a,b = map(int,input().split())
+  flag = 0
+  for i in range(a, b + 1):
+        if i % k == 0:
+            flag += 1
+  if flag > 0:
+      print('OK')
+  else:
+      print('NG')
+
+main()

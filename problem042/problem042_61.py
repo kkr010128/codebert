@@ -1,0 +1,8 @@
+i = 0
+
+while 1: 
+	i += 1
+	x = input()
+	if x == '0': break
+	print(f"Case {i}: {x}")
+	

@@ -1,0 +1,1 @@
+a,b=input().split();print([b*int(a),a*int(b)][a<b])

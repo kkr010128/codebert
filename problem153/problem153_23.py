@@ -1,0 +1,1 @@
+print(("ARC","ABC")[str(input())=="ARC"])

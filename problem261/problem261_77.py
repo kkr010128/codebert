@@ -1,0 +1,1 @@
+s=list(input());print(sum([1 for i,j in list(zip(s[:(len(s)//2)],s[len(s)//2:][::-1])) if i!=j]))

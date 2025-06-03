@@ -1,0 +1,1 @@
+print(sum(map(lambda x:int(x)%2,open(0).read().split()[1::2])))

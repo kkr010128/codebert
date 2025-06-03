@@ -1,0 +1,1 @@
+print("YES") if int(input()) == len(list(set(input().split(" ")))) else print("NO")

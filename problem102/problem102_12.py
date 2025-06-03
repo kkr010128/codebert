@@ -1,0 +1,13 @@
+def resolve():
+    N, K = list(map(int, input().split()))
+    A = list(map(int, input().split()))
+    for i in range(K, N):
+        if A[i-K] < A[i]:
+            print("Yes")
+        else:
+            print("No")
+
+
+    
+if '__main__' == __name__:
+    resolve()

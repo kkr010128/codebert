@@ -1,0 +1,7 @@
+a = input()
+b = a.split(' ')
+c = int(b[0])
+d = int(b[1])
+e = str(c*d)
+f = str(c*2 + d*2)
+print(e+' '+f)

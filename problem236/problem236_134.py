@@ -1,0 +1,1 @@
+h,w,n=map(int,open(0));print(0--n//max(h,w))

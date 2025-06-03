@@ -1,0 +1,1 @@
+print 6 - int(raw_input()) - int(raw_input())

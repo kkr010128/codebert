@@ -1,0 +1,6 @@
+tmp = input().split(" ")
+N = int(tmp[0])
+M = int(tmp[1])
+ary = list(map(lambda n: int(n), input().split(" ")))
+n = sum(ary)
+print(-1) if N < n else print(N - n)

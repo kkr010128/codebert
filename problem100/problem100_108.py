@@ -1,0 +1,19 @@
+n = int(input())
+ans = 8
+if n >= 400:
+    ans = 8
+if n >= 600:
+    ans = 7
+if n >= 800:
+    ans = 6
+if n >= 1000:
+    ans = 5
+if n >= 1200:
+    ans = 4
+if n >= 1400:
+    ans = 3
+if n >= 1600:
+    ans = 2
+if n >= 1800:
+    ans = 1
+print(ans)

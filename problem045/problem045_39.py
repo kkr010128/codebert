@@ -1,0 +1,5 @@
+a, b = map(int, input().split())
+d = a // b
+r = a % b
+f = float(a / b)
+print('{0} {1} {2:0.5f}'.format(d, r, f))

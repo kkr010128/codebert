@@ -1,0 +1,6 @@
+n,k = map(int, input().split())
+a = list(map(int, input().split()))
+a.sort(reverse=True)
+b = [0]*(k-n)
+a.extend(b)
+print(sum(a[k:]))

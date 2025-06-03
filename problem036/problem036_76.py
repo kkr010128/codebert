@@ -1,0 +1,6 @@
+inArray = input().split(' ')
+length = int(inArray[0])
+width = int(inArray[-1])
+area = str(length * width)
+circuit = str((length * 2) + (width * 2))
+print(area + " " + circuit)

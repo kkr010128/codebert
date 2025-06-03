@@ -1,0 +1,6 @@
+n = input()
+s = list(map(int, input().split()))
+nn = input()
+t = list(map(int, input().split()))
+t_and_s = len(set(s) & set(t))
+print(t_and_s)

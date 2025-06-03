@@ -1,0 +1,1 @@
+x,y=input().split();x=int(x);y=float(y);print(int(x*y))

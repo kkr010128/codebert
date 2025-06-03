@@ -1,0 +1,1 @@
+print " ".join(sorted(map(str, map(int, raw_input().split(" ")))))

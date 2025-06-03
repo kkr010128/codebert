@@ -1,0 +1,1 @@
+print chr(ord(raw_input()) + 1)

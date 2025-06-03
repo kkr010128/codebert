@@ -1,0 +1,6 @@
+x,y,z = input().split()
+
+if x<y<z:
+    print('Yes')
+else:
+    print('No')

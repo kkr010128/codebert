@@ -1,0 +1,10 @@
+import sys
+
+while True:
+    num = input()
+    if int(num) == 0:
+        break
+    sum = 0
+    for i in range(len(num)):
+        sum += int(num[i])
+    print(sum)

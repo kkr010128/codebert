@@ -1,0 +1,1 @@
+print('Yes' if '7' in list(str(input().split())) else 'No')

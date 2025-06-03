@@ -1,0 +1,6 @@
+n = int(input())
+stones = input()
+r = stones.count("R")
+w = stones.count("W")
+ans = stones[0:r].count("W")
+print(ans)

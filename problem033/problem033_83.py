@@ -1,0 +1,5 @@
+c = {"N": (1, 5, 2, 3, 0, 4), "S": (4, 0, 2, 3, 5, 1), "E": (3, 1, 0, 5, 4, 2), "W": (2, 1, 5, 0, 4, 3)}
+d = list(map(int, input().split()))
+for x in input():
+  d = [d[y] for y in c[x]]
+print(d[0])

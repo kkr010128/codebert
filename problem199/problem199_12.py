@@ -1,0 +1,1 @@
+print('YNeos'[1-(input()in['hi'*i for i in range(11)])::2])

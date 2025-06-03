@@ -1,0 +1,13 @@
+n=int(input())
+while(n!=0):
+    digit=n%10
+    if(digit==7):
+        flag=1
+        break
+    else:
+        flag=0
+    n=n//10
+if(flag==1):
+    print("Yes")
+else:
+    print("No")

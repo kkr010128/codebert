@@ -1,0 +1,1 @@
+print(sum([i for i in range(1,int(input())+1) if i%15 and i%5 and i%3]))

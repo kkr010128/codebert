@@ -1,0 +1,1 @@
+n=int(input());print(str(n//3600)+":"+str((n//60)%60)+":"+str(n%60))

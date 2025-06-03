@@ -1,0 +1,6 @@
+import sys
+readline = sys.stdin.readline
+
+H1,M1,H2,M2,K = map(int,readline().split())
+
+print(max(0,(H2 * 60 + M2) - (H1 * 60 + M1 + K)))

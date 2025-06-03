@@ -1,0 +1,1 @@
+print('abcdefghijklmnopqrstuvwxyz'['abcdefghijklmnopqrstuvwxyz'.index(input())+1])

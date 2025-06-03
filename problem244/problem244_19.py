@@ -1,0 +1,1 @@
+print((lambda x:('Yes' if (x[1] <= x[0]*500) else 'No'))(list(map(int,input().split()))))

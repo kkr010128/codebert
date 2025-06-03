@@ -1,0 +1,3 @@
+w,h = map(int, raw_input().split())
+
+print(str(w*h) + ' ' + str((w+h)*2))

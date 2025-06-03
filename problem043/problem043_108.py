@@ -1,0 +1,12 @@
+while True:
+    x, y = map(int, input().split())
+    if x == 0 and y == 0:
+        break
+
+    if x > y:
+        z = x
+        x = y
+        y = z
+
+    print(x, y)
+

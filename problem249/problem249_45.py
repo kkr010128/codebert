@@ -1,0 +1,14 @@
+x,y,k=map(int,input().split())
+if(k<=x):
+    x=x-k
+    k=0
+else:
+    k-=x
+    x=0
+if(k<=y):
+    y-=k
+    k=0
+else:
+    k-=y
+    y=0
+print(x,y)

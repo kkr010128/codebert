@@ -1,0 +1,1 @@
+print(' '.join((lambda x:[str((x[2]-1)) if x[4] == x[0] else str(x[2]),str((x[3]-1)) if x[4] == x[1] else str(x[3])])(input().split()+list(map(int,input().split()))+[input()])))

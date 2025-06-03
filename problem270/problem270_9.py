@@ -1,0 +1,1 @@
+print(["SAT","FRI","THU","WED","TUE","MON","SUN"].index(input())+1)

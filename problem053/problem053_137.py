@@ -1,0 +1,6 @@
+input()
+numbers = input().split()
+#print(numbers)
+r_numbers = reversed(numbers)
+#print(r_numbers)
+print(" ".join(r_numbers))

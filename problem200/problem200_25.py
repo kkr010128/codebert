@@ -1,0 +1,19 @@
+import numpy as np
+import sys
+
+input = sys.stdin.readline
+
+A,B,M = map(int,input().split())
+
+a = list(map(int,input().split()))
+b = list(map(int,input().split()))
+
+res = np.min(a) + np.min(b)
+
+for i in range(M):
+    x,y,c = map(int,input().split())
+    x-=1
+    y-=1
+    res = min(res,(a[x]+b[y]-c))
+
+print(res)

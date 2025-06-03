@@ -1,0 +1,5 @@
+S = input().split()
+M = int(S[0])
+N = int(S[1])
+a = int((M*(M-1)/2) + (N*(N-1)/2))
+print(a)

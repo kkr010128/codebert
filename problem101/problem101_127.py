@@ -1,0 +1,9 @@
+a,b,c=map(int,input().split())
+d=0
+while b<=a:
+    b*=2
+    d+=1
+while c<=b:
+    c*=2
+    d+=1
+print("Yes"if d<=int(input())else"No")

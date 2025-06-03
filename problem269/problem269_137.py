@@ -1,0 +1,6 @@
+t1,t2=map(int,input().split())
+a1,a2=map(int,input().split())
+b1,b2=map(int,input().split())
+if (a1*t1-b1*t1)*(a1*t1+a2*t2-b1*t1-b2*t2)>0:print(0)
+elif (a1*t1-b1*t1)*(a1*t1+a2*t2-b1*t1-b2*t2)==0:print('infinity')
+else:print(-(a1*t1-b1*t1)//(a1*t1+a2*t2-b1*t1-b2*t2)*2+((a1*t1-b1*t1)%(a1*t1+a2*t2-b1*t1-b2*t2)!=0))

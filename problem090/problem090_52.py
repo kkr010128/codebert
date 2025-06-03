@@ -1,0 +1,6 @@
+s = str(input())
+array = list(s)
+if array.count("R")==3:print(3)
+elif s[1]==("R") and array.count("R")==2:print(2)
+elif array.count("R")==0:print(0)
+else:print(1)

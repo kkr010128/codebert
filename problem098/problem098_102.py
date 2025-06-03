@@ -1,0 +1,5 @@
+N=int(input())
+c=list(input())
+R=c.count('R')
+L=c[:R].count('R')
+print(R-L)

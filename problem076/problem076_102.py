@@ -1,0 +1,1 @@
+print(int(open(0).read())^1)

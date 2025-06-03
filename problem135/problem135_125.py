@@ -1,0 +1,5 @@
+A,B = input().split()
+A = int(A)
+B = "".join(list(B.split(".")))
+B = int(B)
+print((A*B)//100)

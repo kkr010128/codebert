@@ -1,0 +1,1 @@
+print(int(input().strip('\n'))**2)

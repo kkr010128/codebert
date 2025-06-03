@@ -1,0 +1,15 @@
+from collections import deque
+n = int(input())
+li = deque()
+for i in range(n):
+    command = input().split()
+    if command[0] == 'insert':
+        li.appendleft(command[1])
+    elif command[0] == 'delete':
+        if command[1] in li:
+            li.remove(command[1])
+    elif command[0] == 'deleteFirst':
+        li.popleft()
+    else:
+        li.pop()
+print(*li)

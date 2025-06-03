@@ -1,0 +1,1 @@
+print('Yes' if input() in ['hi'*i for i in range(1,6)] else 'No')

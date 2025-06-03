@@ -1,0 +1,8 @@
+import sys
+
+W,H,x,y,r = map(int,sys.stdin.readline().split())
+
+if x+r > W or x-r < 0 or y+r > H or y-r < 0:
+    print('No')
+else:
+    print('Yes')

@@ -1,0 +1,9 @@
+a=input()
+if(a=="RSS")|(a=="SRS")|(a=="SSR")|(a=="RSR"):
+  print(1)
+elif(a=="SRR")|(a=="RRS"):
+  print(2)
+elif(a=="RRR"):
+  print(3)
+else:
+  print(0)

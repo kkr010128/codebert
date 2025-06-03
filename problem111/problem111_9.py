@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().split()))
+a.sort(reverse=True)
+q, r = divmod(n, 2)
+print(a[0] + sum(a[1:q]) * 2 + a[q] * r)

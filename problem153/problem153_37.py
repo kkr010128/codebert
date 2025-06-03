@@ -1,0 +1,1 @@
+print( ['ABC','ARC'][str(input()) == 'ABC'] )

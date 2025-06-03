@@ -1,0 +1,1 @@
+print(''.join(map(str, ["ACL" for _ in range(int(input()))])))

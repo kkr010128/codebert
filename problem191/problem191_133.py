@@ -1,0 +1,5 @@
+# C - Maximum Volume
+
+l = float(input())
+
+print((l**3)/27)

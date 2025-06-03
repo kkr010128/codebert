@@ -1,0 +1,6 @@
+NK = input().split()
+n = int(NK[0])
+k = int(NK[1])
+arr = list(map(int, input().split()))
+arr.sort()
+print(sum(arr[0:k]))

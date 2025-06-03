@@ -1,0 +1,5 @@
+h = int(input())
+w = int(input())
+n = int(input())
+ma = max(h, w)
+print(n // ma) if n // ma == n / ma else print(n // ma + 1)

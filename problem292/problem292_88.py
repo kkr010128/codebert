@@ -1,0 +1,5 @@
+N = int(input())
+D = list(map(int, input().split()))
+S_1 = sum(D)
+S_2 = sum([d**2 for d in D])
+print((sum(D)**2-S_2)//2)

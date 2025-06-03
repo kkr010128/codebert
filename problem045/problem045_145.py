@@ -1,0 +1,1 @@
+a,b=map(int,raw_input().split());print a/b,a%b,"%.6f"%(1.*a/b)

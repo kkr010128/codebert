@@ -1,0 +1,9 @@
+A, B, C, K = [int(_) for _ in open(0).read().split()]
+cnt = 0
+while A >= B:
+    B *= 2
+    cnt += 1
+while B >= C:
+    C *= 2
+    cnt += 1
+print('Yes' if cnt <= K else 'No')

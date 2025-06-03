@@ -1,0 +1,1 @@
+print(len(set(open(0).read().split())) - 1)

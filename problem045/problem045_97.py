@@ -1,0 +1,5 @@
+a,b = list(map(int,input().split()))
+d = int(a / b)
+r = int(a % b)
+f = float(a / b)
+print("{0:d} {1:d} {2:.5f}".format( d, r, f))

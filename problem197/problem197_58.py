@@ -1,0 +1,10 @@
+from decimal import Decimal, getcontext
+a,b,c = input().split()
+getcontext().prec = 10000
+a = Decimal(a).sqrt()
+b = Decimal(b).sqrt()
+c = Decimal(c).sqrt()
+if a+b+Decimal('0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001') < c:
+	print('Yes')
+else:
+  	print('No')

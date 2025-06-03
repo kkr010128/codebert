@@ -1,0 +1,1 @@
+n=int(input());s=input();print('No'if s[:n//2]!=s[n//2:] else'Yes')

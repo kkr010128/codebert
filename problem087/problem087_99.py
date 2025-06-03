@@ -1,0 +1,1 @@
+print('No'if sum(map(int,list(input())))%9 else'Yes')

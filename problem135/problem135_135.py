@@ -1,0 +1,5 @@
+a, b = input().split()
+a = int(a)
+b1, b2 = b.split('.')
+b = int(b1 + b2)
+print(a * b // 100)

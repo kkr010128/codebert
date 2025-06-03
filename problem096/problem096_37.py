@@ -1,0 +1,1 @@
+n,d=map(int,input().split());print(sum([d**2>=a**2+b**2 for a,b in [list(map(int,input().split())) for _ in range(n)]]))

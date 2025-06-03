@@ -1,0 +1,6 @@
+def main():
+    k, x = list(map(int, input().split()))
+    print('Yes') if k * 500 >= x else print('No')
+
+if __name__ == '__main__':
+    main()

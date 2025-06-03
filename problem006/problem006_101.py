@@ -1,0 +1,1 @@
+print(lambda f,n:f(f,n))(lambda f,n:n==0 and 100000 or(lambda x:x%1000>0 and x-x%1000+1000 or x)(f(f,n-1)*105/100),int(raw_input()))

@@ -1,0 +1,5 @@
+input()
+x = input()
+a = x.split()
+b = list(map(int,a))
+print("{} {} {}".format(min(b),max(b),sum(b)))

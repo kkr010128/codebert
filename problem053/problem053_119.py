@@ -1,0 +1,5 @@
+n = int(input())
+snum = input().split()
+snum.reverse()
+snum_space = " ".join(snum)
+print(snum_space)

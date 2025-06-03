@@ -1,0 +1,17 @@
+#import sys
+#import numpy as np
+import math
+#from fractions import Fraction
+import itertools
+from collections import deque
+from collections import Counter
+import heapq
+from fractions  import gcd
+#input=sys.stdin.readline
+#import bisect
+n=int(input())
+ans=0
+for i in range(1,n+1):
+    num=n//i
+    ans+=(num*(i+num*i))//2
+print(ans)

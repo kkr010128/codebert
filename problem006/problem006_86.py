@@ -1,0 +1,8 @@
+n = input()
+debt = 100000
+for i in range(n):
+    debt *= 1.05
+    if(debt % 1000):
+        debt -= debt % 1000
+        debt += 1000
+print(int(debt))

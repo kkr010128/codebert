@@ -1,0 +1,5 @@
+N,A,B=map(int,input().split())
+t=N//(A+B)
+s=N%(A+B)
+ans = t*A + min(s,A)
+print(ans)

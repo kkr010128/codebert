@@ -1,0 +1,5 @@
+select = list(range(1, 4))
+a = int(input())
+b = int(input())
+ans = next(s for s in select if s != a and s != b)
+print(ans)

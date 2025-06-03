@@ -1,0 +1,5 @@
+A, B = input().split()
+A = int(A)
+B = int(B)
+ans = max(0,A - 2*B)
+print(ans)

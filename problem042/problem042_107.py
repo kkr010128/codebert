@@ -1,0 +1,9 @@
+i = 1
+
+while True:
+    n = input()
+    if n == 0:
+        break
+    else:
+        print "Case %d: %d" % (i, n)
+        i = i + 1

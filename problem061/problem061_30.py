@@ -1,0 +1,1 @@
+print("".join([_.upper() if _.islower() else _.lower() for _ in input()]))

@@ -1,0 +1,8 @@
+n = int(input())
+a = list(map(int, input().split()))
+
+min_a = min(a)
+max_a = max(a)
+sum_a = sum(a)
+
+print(min_a, max_a, sum_a)

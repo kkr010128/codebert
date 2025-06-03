@@ -1,0 +1,1 @@
+import numpy;x=int(input());print(numpy.lcm(360,x)//x)

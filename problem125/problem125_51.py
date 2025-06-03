@@ -1,0 +1,1 @@
+from math import gcd;print(360//gcd(int(input()),360))

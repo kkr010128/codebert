@@ -1,0 +1,5 @@
+N, A, B = map(int, input().split())
+h = N//(A+B)
+i = N%(A+B)
+ans = h*A + min(i, A)
+print(ans)

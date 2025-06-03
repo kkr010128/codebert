@@ -1,0 +1,1 @@
+s=input();print(('No','Yes')[s==input()[:len(s)]])

@@ -1,0 +1,1 @@
+print(len(set(input()))%2*'Yes'or'No')

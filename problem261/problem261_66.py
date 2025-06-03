@@ -1,0 +1,13 @@
+n=input()
+b=0
+e=len(n)-1
+c=0
+while(b<=e):
+  if(n[b]==n[e]):
+    b+=1
+    e-=1
+  elif(n[b]!=n[e]):
+    c+=1
+    b+=1
+    e-=1
+print(c)

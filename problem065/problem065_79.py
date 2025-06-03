@@ -1,0 +1,5 @@
+import sys
+word=input()
+text=sys.stdin.read()
+print(text.lower().split().count(word))
+

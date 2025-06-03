@@ -1,0 +1,16 @@
+def main():
+    n, m = map(int, input().split())
+    if n & 1:
+        for i in range(m):
+            print(i+1, n-i)
+    else:
+        i = 0
+        flag = False
+        for i in range(m):
+            if n-2*i-1 > n//2:
+                print(i+1, n-i)
+            else:
+                print(i+1, n-i-1)
+
+if __name__ == "__main__":
+    main()

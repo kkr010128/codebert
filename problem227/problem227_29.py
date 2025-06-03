@@ -1,0 +1,5 @@
+N,K=map(int,input().split())
+H=list(map(int,input().split()))
+H.sort()
+for _ in range(min(N,K)): H.pop()
+print(sum(H))

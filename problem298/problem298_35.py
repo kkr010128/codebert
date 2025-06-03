@@ -1,0 +1,1 @@
+n,k=map(int,input().split());print(len([i for i in list(map(int,input().split())) if i>=k]))

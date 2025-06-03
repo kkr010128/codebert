@@ -1,0 +1,3 @@
+int(input())
+x=map(int,raw_input().split())
+print min(x),max(x),sum(x)

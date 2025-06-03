@@ -1,0 +1,5 @@
+n = input()
+S = set([int(s) for s in raw_input().split()])
+m = input()
+T = set([int(s) for s in raw_input().split()])
+print len(T & S)

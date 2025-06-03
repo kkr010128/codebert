@@ -1,0 +1,1 @@
+n=int(input());print('NYOE S'[len(set(map(int,input().split())))==n::2])

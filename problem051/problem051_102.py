@@ -1,0 +1,21 @@
+while True:
+    L = map(int,raw_input().split())
+    H = (L[0])
+    W = (L[1])
+    
+    if H == 0 and W == 0:break
+    
+    if W % 2 == 1:
+        for x in range(0,H):
+            if x % 2 == 0:
+                print "{}#".format("#."* (W / 2))
+            else:
+                print "{}.".format(".#"* (W / 2))
+            
+    else:
+        for x in range(0,H):
+            if x % 2 == 0:
+                print "#." * (W / 2)
+            else:
+                print ".#" * (W / 2)
+    print ""

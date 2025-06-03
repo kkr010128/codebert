@@ -1,0 +1,5 @@
+n = int(input())
+s = input()
+rs = s.count('R')
+oks = s[:rs].count('R')
+print(rs - oks)
